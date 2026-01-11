@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+h1, h2, p {
+    font-family: "Times New Roman", serif;
+}
+h1 {
+    font-size: 250%;
+    margin: 0;
+}
+h2 {
+    font-size: 110%;
+    color: rgb(94, 94, 208);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+hr {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#container {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 600px;
+}
+li {
+    text-align: left;
+    padding: 10px;
+}
+p {
+    text-align: left;
+}
+.italic-text {
+    font-style: italic;
+}
+img {
+    width: 30%;
+}
