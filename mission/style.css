@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: aliceblue;
 }
 h1, h2, p {
     font-family: "Times New Roman", serif;
@@ -20,8 +21,9 @@ hr {
 }
 #container {
     margin: 40px auto;
-    padding: 30px;
+    padding: 90px;
     max-width: 600px;
+    outline: 1px solid black;
 }
 li {
     text-align: left;
@@ -35,4 +37,10 @@ p {
 }
 img {
     width: 30%;
+}
+
+select {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
