@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.main-nav {
+    list-style: none;
+    padding: 10px;
+    border-top: 4px solid rgb(233, 233, 10);
+    border-bottom: 4px solid rgb(233, 233, 10);
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-nav a {
+    color: #5b1212;
+    text-decoration: none;
+    padding: 30px;
+}
+header {
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.book-stats {
+    text-align: right;
+    border-top: 4px solid rgb(233, 233, 10);
+}
+.book-stats p {
+    padding-right: 40px;
+}
+.book-profile {
+    text-align: left;
+}
+.book-profile p, h2{
+    padding-left: 40px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    border-top: 4px solid rgb(233, 233, 10);
+    text-align: center;
+}
+h2 {
+    color: #5b1212;
+}
+@media (min-width: 600px) {
+    main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 45px
+    }
+    .book-stats {
+    border-top: none;
+    border-right: 4px solid rgb(233, 233, 10);
+    }
+}
