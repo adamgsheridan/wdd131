@@ -21,7 +21,7 @@ body {
 header {
     text-align: center;
 }
-main {
+.books {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 45px;
@@ -50,15 +50,21 @@ footer {
 }
 h2 {
     color: #5b1212;
+    text-align: center;
 }
 @media (min-width: 600px) {
-    main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-top: 45px
+    .books {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-top: 45px;
     }
     .book-stats {
-    border-top: none;
-    border-right: 4px solid rgb(233, 233, 10);
+        border-top: none;
+        border-right: 4px solid rgb(233, 233, 10);
+        margin-bottom: 80px;
+    }
+    .book-profile {
+        margin-bottom: 80px;
+        padding-right: 200px;
     }
 }
