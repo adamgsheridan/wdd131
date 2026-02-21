@@ -1,0 +1,93 @@
+.back {
+    padding: 20px 0px 20px 0px;
+    height: 170px;
+    width: 380px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 1;
+    justify-items: end;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+.front {
+    width: 350px;
+    height: 180px;
+    padding: 0px 15px 30px 20px;
+    position: absolute;
+    z-index: 2;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+section {
+    background-color: lightgray;
+    
+    display: grid;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+#cards {
+    position: relative;
+}
+#cardHolder {
+    grid-column: 1;
+    grid-row: 3;
+}
+#cardExpiration {
+    grid-column: 2;
+    grid-row: 3;
+}
+.front p {
+    font-size: 40px;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+.front h1 {
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
+}
+#number,
+#fullName,
+#month,
+#year,
+#code
+{
+    height: 30px;
+}
+#cvc {
+    grid-column: 4;
+    grid-row: 3;
+    text-align: center;
+}
+#month,
+#year,
+#code
+{
+    width: 50px;
+}
+#cardExpiration input {
+    display: inline-block;
+    width: 40px;
+}
+#cardExpiration label {
+    display: block;
+}
+button {
+    position: absolute;
+    top: 280px;
+    left: 435px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 5px 10px;
+}
+#bar {
+    padding-top: 30px;
+    position: absolute;
+    top: 10px;
+    width: 380px;
+    height: 10px;
+    background-color: black;
+}

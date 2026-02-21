@@ -39,11 +39,13 @@ paymentSelect.addEventListener('change', togglePaymentDetails);
 
 function displayError(msg) {
 	// display error message
-	document.querySelector('.errors').textContent = msg
+	document.querySelector('.errors').textContent = msg;
 }
 
 function isCardNumberValid(number) {
-	// normally we would contact a credit card service...but we don't know how to do that yet. So to keep things simple we will only accept one number
+	// normally we would contact a credit card service...but we 
+  // don't know how to do that yet. So to keep things simple 
+  // we will only accept one number
 	return number === '1234123412341234'
 }
 
