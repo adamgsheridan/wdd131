@@ -33,7 +33,7 @@ document.querySelector('img').setAttribute('alt', aCharacterCard.name)
 document.querySelector('.name').textContent = aCharacterCard.name;
 
 // Update stats with info from character card.
-document.querySelector('#class').textContent = 
+document.querySelector('#characterClass').textContent = 
 "Class: " + aCharacterCard.class;
 
 document.querySelector('#level').textContent = 
