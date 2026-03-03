@@ -1,0 +1,112 @@
+/* General styles. */
+body {
+    text-align: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 340px;
+    margin-top: 20px;
+}
+
+/* Title styles. */
+.title img {
+    width: 90px;
+    height: 90px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+.title h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Search bar styles. */
+.search-bar img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 345px;
+}
+.search-bar form {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 345px;
+}
+.search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    width: 100%;
+}
+.search-bar button {
+    position: relative;
+    border: none;
+    background: #ffffff;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.search-bar button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    bottom: 10%;
+    width: 1px;
+    background: #ccc;
+}
+
+/* Recipe styles. */
+.recipes img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 3px solid #ccc;
+    padding: 20px;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 8px;
+}
+p {
+    font-family: 'Amatic SC', cursive;
+    color: #067eef;
+    font-size: 35px;
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}
+#category-button {
+    margin-top: 0px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.social img {
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px 15px 0px;
+}
