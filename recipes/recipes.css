@@ -91,17 +91,23 @@ hr {
     width: fit-content;
     border-radius: 8px;
 }
-p {
+h2 {
     font-family: 'Amatic SC', cursive;
     color: #067eef;
     font-size: 35px;
     padding: 0px;
     margin: 20px 0px 0px 0px;
 }
-#category-button {
+.category-button {
     margin-top: 0px;
     padding-top: 0px;
     cursor: pointer;
+}
+p {
+    display: none;
+}
+.details {
+    text-align: left;
 }
 
 /* Footer styles */
@@ -109,4 +115,42 @@ p {
     width: 24px;
     height: 24px;
     margin: 5px 0px 15px 0px;
+}
+
+@media screen and (min-width: 700px) {
+    .title img {
+        width: 125px;
+        height: 125px;
+    }
+    .title h1 {
+        font-size: 80px;
+    }
+    .recipes {
+        flex-direction: row;
+        width: 550px;
+    }
+    .details {
+        text-align: left;
+        padding: 0px 0px 15px 15px;
+    }
+    p {
+        display: block;
+    }
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 590px;
+        margin: 0 auto;
+    }
+    .search-bar {
+        width: 600px;
+        justify-content: center;
+    }
+    .search-bar form{
+        width: 600px;
+    }
+    hr {
+        width: 595px;
+    }
 }
