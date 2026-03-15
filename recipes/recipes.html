@@ -29,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="recipes.css">
     <title>Recipe Book</title>
+    <script defer src="recipes.js"></script>
 </head>
 <body>
     <header>
@@ -38,7 +39,7 @@
         </div>
         <div class="search-bar">
             <form action="/search" method="GET">
-                <input type="search" name="q" placeholder="Find a recipe">
+                <input id="search" type="search" name="q" placeholder="Find a recipe">
                 <button type="submit">
                     <img src="images/search.svg" alt="search icon">
                 </button>
@@ -46,21 +47,7 @@
         </div>
         <hr>
     </header>
-    <article class="recipes">
-        <img src="images/apple-crisp.jpg" alt="Apple Crisp">
-        <div class="details">
-            <button class="category-button">dessert</button>
-            <h2>Apple Crisp</h2>
-            <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-            </span>
-            <p>This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-        </div>
-    </article>
+    <div id="recipe-container"></div>
     <footer>
         <div class="social">
             <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->

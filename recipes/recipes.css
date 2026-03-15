@@ -75,13 +75,13 @@ hr {
 }
 
 /* Recipe styles. */
-.recipes img {
+.recipe-content img {
     width: 300px;
     height: auto;
     margin-bottom: 5px;
     padding-bottom: 0px;
 }
-.recipes {
+.recipe-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -125,7 +125,7 @@ p {
     .title h1 {
         font-size: 80px;
     }
-    .recipes {
+    .recipe-content {
         flex-direction: row;
         width: 550px;
     }
